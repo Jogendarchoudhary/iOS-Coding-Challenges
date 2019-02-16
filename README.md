@@ -6,3 +6,6 @@ Algorithm coding challenges, DSA, Simple Coding challenges, Medium coding challe
 ### Linked List
 - [x] Reverse linked list
 - [x] Find out mid element of linked list
+
+### Higher order functions
+- [x] Maximum difference between two elements
