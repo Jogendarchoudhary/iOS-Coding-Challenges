@@ -9,3 +9,11 @@ Algorithm coding challenges, DSA, Simple Coding challenges, Medium coding challe
 
 ### Higher order functions
 - [x] Maximum difference between two elements
+- [x] Birthday Cake Candles
+- [x] Diagonal Difference
+- [x] Find the first most frequent occurring character in a string
+- [x] Mini-Max Sum
+
+
+
+
