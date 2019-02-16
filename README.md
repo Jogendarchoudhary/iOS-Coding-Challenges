@@ -3,6 +3,6 @@ Algorithm coding challenges, DSA, Simple Coding challenges, Medium coding challe
 
 ## Checklist
 
-### Linked List Challanges
+### Linked List
 - [x] Reverse linked list
 - [x] Find out mid element of linked list
