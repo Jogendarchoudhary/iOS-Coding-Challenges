@@ -13,6 +13,7 @@ Algorithm coding challenges, DSA, Simple Coding challenges, Medium coding challe
 - [x] Diagonal Difference
 - [x] Find the first most frequent occurring character in a string
 - [x] Mini-Max Sum
+- [x] Time Conversion
 
 
 
