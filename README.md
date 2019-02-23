@@ -3,7 +3,7 @@ Algorithm coding challenges, DSA, Simple Coding challenges, Medium coding challe
 
 ## Data structures
 
-   ### Linked List
+    ### Linked List
  - [x] Reverse linked list
  - [x] Find out mid element of linked list
  - [x] Insert node in a specific position in linked list
