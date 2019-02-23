@@ -19,6 +19,14 @@ Algorithm coding challenges, DSA, Simple Coding challenges, Medium coding challe
 - [x] Mini-Max Sum
 - [x] Time Conversion
 
+### Searching algorithms
+- [x] Linear search
+- [x] Binary search
+
+### Queues
+- [x] Stack
+- [x] Queue
+- [x] Deque
 
 
 
