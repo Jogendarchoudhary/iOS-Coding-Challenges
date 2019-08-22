@@ -25,3 +25,9 @@ func birthdayCakeCandles(candleArr: [Int]) -> Int {
     return maxHeightCandleTuple.1
 }
 print(birthdayCakeCandles(candleArr: [3,2,1,3]))
+
+func birthdayCakeCandles1(candleArr: [Int]) -> Int {
+    
+    let maxHeightCandleTuple = candleArr.reduce((candleArr[0],0), {(max($0.0, $1), ($0.0 == $1 ? ($0.1 + 1): $0.1))})
+    return maxHeightCandleTuple.1
+}

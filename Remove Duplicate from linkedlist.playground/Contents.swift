@@ -15,8 +15,8 @@ class Node {
 
 let node6 = Node(value: 6, next: nil)
 let node5 = Node(value: 4, next: node6)
-let node4 = Node(value: 4, next: node5)
-let node3 = Node(value: 2, next: node4)
+let node4 = Node(value: 2, next: node5)
+let node3 = Node(value: 4, next: node4)
 let node2 = Node(value: 2, next: node3)
 let node1 = Node(value: 1, next: node2)
 

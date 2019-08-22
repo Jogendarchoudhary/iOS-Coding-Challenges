@@ -14,7 +14,7 @@ func diagonalDifference(arr: [[Int]]) -> Int {
     
     let a = (0..<arr.count).map({arr[$0][$0]}).reduce(0, +)
     let finalCalculation = arr.count - 1
-    let b = (0..<arr.count).map({arr[finalCalculation - $0][$0]}).reduce(0, +)
+    let b = (0..<arr.count).map({arr[$0][finalCalculation - $0]}).reduce(0, +)
     let difference = abs(a  - b)
     
     return difference

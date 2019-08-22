@@ -60,4 +60,22 @@ func addNode(node: Node?, linkedList: Node?, index: Int) -> Node? {
     }
     return linkedList
 }
+func addNode1(node: Node?, linkedList: Node?, index: Int) -> Node? {
+    
+    var curruntNode = linkedList
+    var preNode: Node?
+    var count = 0
+    while count != index {
+        preNode = curruntNode
+        curruntNode = curruntNode?.next
+        count += 1
+    }
+    if index == 0 {
+        node?.next = linkedList
+        return node
+    }
+    node?.next = curruntNode
+    preNode?.next = node
+    return linkedList
+}
 print(printNode(node: addNode(node: node6, linkedList: node1, index: 0)) )
