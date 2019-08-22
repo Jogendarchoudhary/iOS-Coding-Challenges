@@ -28,5 +28,8 @@ Algorithm coding challenges, DSA, Simple Coding challenges, Medium coding challe
 - [x] Queue
 - [x] Deque
 
+### Interview's asked question
+- [x] Longest palindromic substring
+
 
 
