@@ -30,6 +30,10 @@ Algorithm coding challenges, DSA, Simple Coding challenges, Medium coding challe
 
 ### Interview's asked question
 - [x] Longest palindromic substring
+- [x] Given a non-empty string containing only digits, determine the total number of ways to decode it.
+- [x] In an integer array, find a pair of numbers which add up to a given number.
+- [x] Given an array of unsorted positive integers, find the length of maximum subarray containing consecutive integers.
+- [x] Format a string of numbers to display a currency - example" "1234.678" to "1,234.68".
 
 
 
