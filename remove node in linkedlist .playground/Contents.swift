@@ -50,4 +50,21 @@ func removeNode( value: Int?, from linkedList: Node?) -> Node? {
     }
     return linkedList
 }
+func removeNode( index: Int?, from linkedList: Node?) -> Node? {
+
+    var currentNode = linkedList
+    var preNode: Node?
+    var count = 0
+    while count != index  {
+        preNode = currentNode
+        currentNode = currentNode?.next
+        count += 1
+    }
+    if index == 0 {
+        return linkedList?.next
+    }
+    preNode?.next = currentNode?.next
+    return linkedList
+}
+printNode(node: removeNode(index: 3, from: node1))
 printNode(node: removeNode(value: 3, from: node1))
